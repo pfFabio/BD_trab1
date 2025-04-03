@@ -36,6 +36,7 @@ o trabalho é primariamente dividio em 3 pastas(banco, Backend, site_pokemon):
 ==============================
 INSTRUÇÕES DE USO
 
+note que neste repositório não esta salvo a pasta do node de forma que será necessárrio instalar ele
 entre na pasta backend atraves do terminal e digite "uvicorn main:app --reload" para lançar a API
 entre na pasta site_pokemon atraves do terminal e digite "npm start" para lançar a pagina
 ela deve abrir automaticamente mas caso não abra use o endereço http://localhost:3000/ no seu navegador de preferência 
