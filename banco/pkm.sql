@@ -1,5 +1,5 @@
-create database pkm_cards;
-use pkm_cards;
+create database sistema_db;
+use sistema_db;
 
 create table card(
 id int primary key not null auto_increment,
