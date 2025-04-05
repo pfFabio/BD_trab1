@@ -11,7 +11,7 @@ const FormCarta = () => {
     elem: "",
     evo: "",
     atk: "",
-    custo_atk: ""
+    custo: ""
   });
 
   // Função para atualizar o estado conforme o usuário digita
@@ -26,7 +26,7 @@ const FormCarta = () => {
   // Função para submeter o formulário e chamar o endpoint da API
   const adicionacarta = async (e) => {
 
-    // Converte valores numéricos (se necessário)
+    // Converte valores numéricos
     const cardData = {
       ...formData,
       hp: parseInt(formData.hp),
@@ -46,7 +46,7 @@ const FormCarta = () => {
         elem: "",
         evo: "",
         atk: "",
-        custo_atk: ""
+        custo: ""
       });
       
     } catch (error) {

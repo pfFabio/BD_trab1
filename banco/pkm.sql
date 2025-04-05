@@ -8,11 +8,11 @@ hp int not null,
 elem varchar(40),
 evo int,
 atk int,
-custo_atk int
+custo int
 );
 
 
-insert into card (nome, hp, elem, evo, atk, custo_atk)  
+insert into card (nome, hp, elem, evo, atk, custo)  
 VALUES  
 ('Pikachu', 60, 'Elétrico', 1, 50, 1),  
 ('Charizard', 150, 'Fogo', 3, 120, 3),  

@@ -9,4 +9,4 @@ class carta_pkm(Base):
     elem = Column(String(50))
     evo = Column(Integer)
     atk = Column(Integer)
-    custo_atk = Column(Integer)
+    custo = Column(Integer)
